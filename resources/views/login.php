@@ -29,12 +29,7 @@
                 margin-right: auto;
                 border-radius: 10px;
             }
-            .login img{
-                width: 80%;
-                margin-top: 20px;
-                margin-left: 50px;
-                margin-bottom: 5px;
-            }
+         
 
             label{
                 color: blanchedalmond;  
@@ -47,7 +42,7 @@
                 margin-bottom: 20px;
             }
             div.login form{
-                margin-top: 20px ;
+                margin-top: 50px ;
                 margin-left: 80px;
                 
             }
@@ -97,10 +92,7 @@
                 right: 0;
             }
 
-            img.piano{
-                width: 100%;
-                margin-left: 0;
-            }
+            
         </style>
     </head>
 <body>
@@ -108,7 +100,7 @@
         <div class="container">
             <h1>Musicero</h1>
                 <div class="login">
-                    <img src="logo.png">
+                    
                     <hr>
                     <form action="validate" method="post">
                         <div class="datas">

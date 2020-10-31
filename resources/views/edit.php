@@ -30,7 +30,7 @@
                 width: 13%; 
                 
             }
-            button.create{
+            button.create1{
                 background-color: black;
                 color: blanchedalmond;
                 padding: 2px;
@@ -52,7 +52,7 @@
                 padding-bottom: 50px;
                 background-color: whitesmoke;
                 width: 50%;
-                height: 80%;
+                height: 90%;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 20px;
@@ -80,9 +80,8 @@
     </head>
 <body>
     <div class="header">
-        <img src="logo.png">
-        <div class="createuser">
-            <button href="site" class="create">Cancel</button> 
+        <div class="Createuser">
+            <button href="site" class="create1">Cancel</button> 
             <button href="login" class="out">Logout</button>
             <h2>EDIT</h2>
         </div>
