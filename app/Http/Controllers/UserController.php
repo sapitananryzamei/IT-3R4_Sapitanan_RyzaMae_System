@@ -99,14 +99,14 @@
             $username = $_POST['username'];
             $password = $_POST['password'];
             app('db')->table('users')->where('id', $id)->update(['username' => $username, 'password' => $password]);
-            return redirect()->route('dashboard');
+            return redirect()->route('site');
         }
 
         public function delete(){
             $id = $_POST['delete_id'];
             $user = User::find($id);
             $user->delete();
-            return redirect()->route('dashboard');
+            return redirect()->route('site');
         }
 
     }

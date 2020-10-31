@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
             body{
-                background-image: url('background.jpg');
+                background-color: red;
                 margin:0;
                 background-size: 100%;
                 background-attachment: fixed;

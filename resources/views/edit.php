@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
             body{
-                background-image: url('sitebg.jpg');
+                background-color: red;
                 margin:0;
                 background-size: 100%;
                 background-attachment: scroll;
@@ -46,7 +46,7 @@
                 margin-right: 10px;
                 cursor: pointer;
             }
-            form{
+            div.forms{
                 text-align: center;
                 padding-top: 50px ;
                 padding-bottom: 50px;
@@ -105,7 +105,7 @@
                                 <input type="text" name="password" value="<?php echo $password[$x]->password; ?>" class="inp" placeholder="Enter password" required>
                             </div>
                             <div class="datas">                 
-                                <input type="submit" name="adds" value="Update" href="site">
+                                <input type="submit" name="adds" value="Update">
 
                                     
                             </div>

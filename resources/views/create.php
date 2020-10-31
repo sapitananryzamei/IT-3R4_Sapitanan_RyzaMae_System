@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
             body{
-                background-image: url('sitebg.jpg');
+                background-color: red;
                 margin:0;
                 background-size: 100%;
                 background-attachment: scroll;
@@ -53,13 +53,9 @@
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 60px;
-
-            }
-            form{
                 text-align: center;
                 padding-top: 50px ;
                 padding-bottom: 50px;
-                
             }
             input{
                 background-color: black;
