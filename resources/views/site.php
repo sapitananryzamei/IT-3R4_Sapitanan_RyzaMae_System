@@ -85,7 +85,7 @@
     <form action="create" method="post">
         <div class="Createuser">
             <input type="submit" name="create" class="create1" value="Create New User">
-            <a href="login" class="btn btn-dark">Logout</a>
+            <a href="login" class="out">Logout</a>
         </div>
     </form>
         
