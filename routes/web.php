@@ -32,8 +32,8 @@ $router->post('createp', [
     'as' => 'createp', 'uses' => 'UserController@createpage'
 ]);
 
-$router->post('create-user', [
-    'as' => 'create-user', 'uses' => 'UserController@createUser'
+$router->post('createuser', [
+    'as' => 'createuser', 'uses' => 'UserController@CreateUser'
 ]);
 
 $router->post('edit', [

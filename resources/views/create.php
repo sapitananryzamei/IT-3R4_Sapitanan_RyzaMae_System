@@ -91,7 +91,8 @@
             <a href="site" class="back">Back</a> 
             <a href="login" class="out">Logout</a>
         </div>
-            <form action="create-user" method="post">
+    </div>
+            <form action="createuser" method="post">
                 <div class="datas">
                     <label>Username</label>
                     <input type="text" name="username" class="inp" placeholder="Enter username" required>
@@ -104,7 +105,6 @@
                     <input type="submit" name="add" class="add1" value="Create">
                 </div>
             </form>
-        </div>
 
 
 </body>

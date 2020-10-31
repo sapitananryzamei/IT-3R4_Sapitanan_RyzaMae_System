@@ -43,7 +43,7 @@
             ];
             return view('site')->with($data);
         }
-        public function createUser(Request $request){
+        public function CreateUser(Request $request){
 
             $this->validate($request, [
                 'username' => 'required|max:50',
