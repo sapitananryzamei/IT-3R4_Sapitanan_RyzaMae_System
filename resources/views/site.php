@@ -82,7 +82,7 @@
     <div class="header">
         <h2>Musicians</h2>
     </div>
-    <form action="create" method="post">
+    <form action="createp" method="post">
         <div class="Createuser">
             <input type="submit" name="create" class="create1" value="Create New User">
             <a href="login" class="out">Logout</a>
