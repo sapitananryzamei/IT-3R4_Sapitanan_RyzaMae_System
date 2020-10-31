@@ -35,7 +35,9 @@
                 color: blanchedalmond;
                 padding: 2px;
                 cursor: pointer;
-                margin-left: 8  px;
+                margin-left: 8px;
+                margin-top: 20px;
+                font-size: 20px;
             }
             a.out{
                 background-color: black;
@@ -45,6 +47,8 @@
                 float: right;
                 margin-right: 10px;
                 cursor: pointer;
+                margin-top: 20px;
+                font-size: 20px;
             }
             div.forms{
                 text-align: center;
@@ -95,22 +99,19 @@
                     ?>
                     <form action="update" method="post">
                         <input type="hidden" name="idSearch" value="<?php echo $id[$x]->id; ?>">
-                            <div class="datas">
-                                <label>Username</label>
-                                <input type="text" name="username" value="<?php echo $username[$x]->username; ?>" class="inp" placeholder="Enter username" required>
-                            </div>
-                            <div class="datas">
-                                <label>Password</label>
-                                <input type="text" name="password" value="<?php echo $password[$x]->password; ?>" class="inp" placeholder="Enter password" required>
-                            </div>
-                            <div class="datas">                 
-                                <input type="submit" name="adds" value="Update">
-
-                                    
-                            </div>
+                        <div class="datas">
+                            <label>Username</label>
+                            <input type="text" name="username" value="<?php echo $username[$x]->username; ?>" class="inp" placeholder="Enter username" required>
+                        </div>
+                        <div class="datas">
+                            <label>Password</label>
+                            <input type="text" name="password" value="<?php echo $password[$x]->password; ?>" class="inp" placeholder="Enter password" required>                            </div>
+                        <div class="datas">                 
+                            <input type="submit" name="adds" value="Update">
+                        </div>
                     </form>
                             
-                    <?php
+               <?php
                             }
                         }
                     }

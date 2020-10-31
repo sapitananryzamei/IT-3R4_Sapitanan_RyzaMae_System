@@ -23,22 +23,19 @@
             }
             .login{
                 width: 450px;
-                height: 500px;
+                height: 300px;
                 background-color: black;
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 10px;
+                padding : 20px;
             }
-         
-
             label{
                 color: blanchedalmond;  
             }
             input {
                 width: 200px;
                 height: 30px;
-            }
-            input {
                 margin-bottom: 20px;
             }
             div.login form{

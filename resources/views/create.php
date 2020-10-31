@@ -35,7 +35,10 @@
                 color: blanchedalmond;
                 padding: 2px;
                 cursor: pointer;
-                margin-left: 8  px;
+                text-decoration: none;
+                margin-left: 8px;
+                margin-top: 20px;
+                font-size: 20px;
             }
             a.out{
                 background-color: black;
@@ -45,6 +48,8 @@
                 float: right;
                 margin-right: 10px;
                 cursor: pointer;
+                margin-top: 20px;
+                font-size: 20px;
             }
             div.forms{
                 background-color: whitesmoke;

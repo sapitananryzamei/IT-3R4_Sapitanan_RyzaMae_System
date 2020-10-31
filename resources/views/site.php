@@ -35,7 +35,10 @@
                 color: blanchedalmond;
                 padding: 2px;
                 cursor: pointer;
+                margin-top: 20px;
+                font-size: 20px;
                 margin-left: 8px;
+                text-decoration: none;
             }
             a.out{
                 background-color: black;
@@ -43,6 +46,8 @@
                 text-decoration: none;
                 color: blanchedalmond;
                 float: right;
+                margin-top: 20px;
+                font-size: 20px;
                 margin-right: 10px;
                 cursor: pointer;
             }
