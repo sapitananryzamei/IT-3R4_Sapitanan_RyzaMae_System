@@ -30,7 +30,7 @@
                 width: 13%; 
                 
             }
-            a.create1{
+            input.create1{
                 background-color: black;
                 color: blanchedalmond;
                 padding: 2px;
@@ -83,7 +83,7 @@
     </div>
     <div class="buttons">
         <div class="Createuser">
-            <a href="site" class="create1">Cancel</a> 
+            <input type="submit" name="create" class="create1" value="Create New User"> 
             <a href="login" class="out">Logout</a>
         </div>
         <div class="forms">

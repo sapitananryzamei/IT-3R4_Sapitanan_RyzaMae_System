@@ -81,7 +81,7 @@
     <div class="buttons">
         <form action="create" method="post">
             <div class="Createuser">
-                <a class="create1" href="create">Create New User</a> 
+                <a href="create" class="create1" >Create New User</a> 
                 <a href="login" class="out">Logout</a>
             </div>
         </form>
