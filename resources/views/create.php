@@ -91,20 +91,20 @@
             <a href="site" class="back">Back</a> 
             <a href="login" class="out">Logout</a>
         </div>
-                <form action="create-user" method="post">
-                    <div class="datas">
-                        <label>Username</label>
-                        <input type="text" name="username" class="inp" placeholder="Enter username" required>
-                    </div>
-                    <div class="datas">
-                        <label class="pword">Password</label>
-                        <input type="text" name="password" class="inp" placeholder="Enter password" required>
-                    </div>
-                    <div class="datas">
-                        <input type="submit" name="add" class="add1" value="Create">
-                    </div>
-                </form>
-            </div>
+            <form action="create-user" method="post">
+                <div class="datas">
+                    <label>Username</label>
+                    <input type="text" name="username" class="inp" placeholder="Enter username" required>
+                </div>
+                <div class="datas">
+                    <label class="pword">Password</label>
+                    <input type="text" name="password" class="inp" placeholder="Enter password" required>
+                </div>
+                <div class="datas">
+                    <input type="submit" name="add" class="add1" value="Create">
+                </div>
+            </form>
+        </div>
 
 
 </body>
