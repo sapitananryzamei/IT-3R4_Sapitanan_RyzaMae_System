@@ -30,14 +30,14 @@
                 width: 13%; 
                 
             }
-            button.create1{
+            a.create1{
                 background-color: black;
                 color: blanchedalmond;
                 padding: 2px;
                 cursor: pointer;
                 margin-left: 8  px;
             }
-            button.out{
+            a.out{
                 background-color: black;
                 padding: 2px;
                 text-decoration: none;
@@ -81,8 +81,8 @@
 <body>
     <div class="header">
         <div class="Createuser">
-            <button href="site" class="create1">Cancel</button> 
-            <button href="login" class="out">Logout</button>
+            <a href="site" class="create1">Cancel</a> 
+            <a href="login" class="out">Logout</a>
             <h2>EDIT</h2>
         </div>
             <div class="forms">

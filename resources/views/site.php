@@ -30,14 +30,14 @@
                 width: 13%; 
                 
             }
-            button.create{
+            a.create1{
                 background-color: black;
                 color: blanchedalmond;
                 padding: 2px;
                 cursor: pointer;
-                margin-left: 8  px;
+                margin-left: 8px;
             }
-            button.out{
+            a.out{
                 background-color: black;
                 padding: 2px;
                 text-decoration: none;
@@ -80,9 +80,9 @@
     </div>
     <div class="buttons">
         <form action="create" method="post">
-            <div class="createuser">
-                <button class="create" href="create.html">Create New User</button> 
-                <button href="login" class="out">Logout</button>
+            <div class="Createuser">
+                <a class="create1" href="create">Create New User</a> 
+                <a href="login" class="out">Logout</a>
             </div>
         </form>
     </div>
