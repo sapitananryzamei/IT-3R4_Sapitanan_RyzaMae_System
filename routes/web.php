@@ -28,8 +28,8 @@ $router->get('site', [
     'as' => 'site', 'uses' => 'UserController@sitepage'
 ]);
 
-$router->post('create', [
-    'as' => 'create', 'uses' => 'UserController@createpage'
+$router->post('createp', [
+    'as' => 'createp', 'uses' => 'UserController@createpage'
 ]);
 
 $router->post('create-user', [

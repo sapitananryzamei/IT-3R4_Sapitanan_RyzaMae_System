@@ -83,14 +83,11 @@
         <img src="logo.png">
         <h2>Musicians</h2>
     </div>
-    <div class="buttons">
-        <form action="create" method="post">
-            <div class="Createuser">
-                <a href="create" class="create1" >Create New User</a> 
-                <a href="login" class="out">Logout</a>
-            </div>
-        </form>
-    </div>
+    <div class="Createuser">
+        <a href="create" class="create1" >Create New User</a> 
+        <a href="login" class="out">Logout</a> 
+   </div>
+        
     <table class="tbl" id="data" width="100%" cellspacing="0">
 
         <thead id="thead">
