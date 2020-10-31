@@ -12,21 +12,38 @@
 */
 
 
-$router->get('users', 'UserController@getUsers');
+$router->get('users', [
+    'as' => 'users', 'uses' => 'UserController@getUsers'
+]);
 
-$router->get('login','UserController@loginpage');
+$router->get('login', [
+    'as' => 'login', 'uses' => 'UserController@loginpage'
+]);
 
-$router->post('validate', 'UserController@validateUser');
+$router->post('validate', [
+    'as' => 'validate', 'uses' => 'UserController@validateUser'
+]);
 
-$router->get('site','UserController@sitepage');
+$router->get('site', [
+    'as' => 'site', 'uses' => 'UserController@sitepage'
+]);
 
-$router->post('create', 'UserController@createpage');
+$router->post('create', [
+    'as' => 'create', 'uses' => 'UserController@createpage'
+]);
 
-$router->post('create-user', 'UserController@createUser');
+$router->post('create-user', [
+    'as' => 'create-user', 'uses' => 'UserController@createUser'
+]);
 
-$router->post('edit','UserController@editpage');
+$router->post('edit', [
+    'as' => 'edit', 'uses' => 'UserController@editpage'
+]);
 
-$router->post('update','UserController@update');
+$router->post('update', [
+    'as' => 'update', 'uses' => 'UserController@update'
+]);
 
-$router->post('delete','UserController@delete');
-?>
+$router->post('delete', [
+    'as' => 'delete', 'uses' => 'UserController@delete'
+]);
