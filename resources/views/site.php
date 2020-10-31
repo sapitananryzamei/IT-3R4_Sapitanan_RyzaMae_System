@@ -30,7 +30,7 @@
                 width: 13%; 
                 
             }
-            a.create1{
+            input.create1{
                 background-color: black;
                 color: blanchedalmond;
                 padding: 2px;
@@ -80,13 +80,14 @@
     </head>
 <body>
     <div class="header">
-        <img src="logo.png">
         <h2>Musicians</h2>
     </div>
-    <div class="Createuser">
-        <a href="create" class="create1" >Create New User</a> 
-        <a href="login" class="out">Logout</a> 
-   </div>
+    <form action="create" method="post">
+        <div class="Createuser">
+            <input type="submit" name="create" class="create1" value="Create New User">
+            <a href="login" class="btn btn-dark">Logout</a>
+        </div>
+    </form>
         
     <table class="tbl" id="data" width="100%" cellspacing="0">
 
