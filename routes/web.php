@@ -44,6 +44,6 @@ $router->post('update', [
     'as' => 'update', 'uses' => 'UserController@update'
 ]);
 
-$router->post('delete', [
-    'as' => 'delete', 'uses' => 'UserController@delete'
+$router->post('deleteuser', [
+    'as' => 'deleteuser', 'uses' => 'UserController@delete'
 ]);

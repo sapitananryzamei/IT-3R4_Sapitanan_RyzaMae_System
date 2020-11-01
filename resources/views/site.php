@@ -108,23 +108,23 @@
             if (!empty($id)) {
                 for ($x = 0; $x < count($id); $x++) {
             ?>
-                    <tr>
-                        <td class="top"><?php echo $id[$x]->id; ?></td>
-                        <td class="top"><?php echo $username[$x]->username; ?></td>
-                        <td class="top"><?php echo $password[$x]->password; ?></td>
-                        <td class="top">
-                            <form action="edit" method="post">
-                                <input type="hidden" name="update_id" value="<?php echo $id[$x]->id; ?>">
-                                <button type="submit" name = "buttonedit"class="edit1">EDIT</button>
-                            </form>
-                        </td>
-                        <td class="top">
-                            <form action="delete" method="post">
-                                <input type="hidden" name="delete_ID" value="<?php echo $id[$x]->id; ?>">
-                                <button type="submit" class="delete1">DELETE</button>
-                            </form>
-                        </td>
-                    </tr>
+                <tr>
+                    <td class="top"><?php echo $id[$x]->id; ?></td>
+                    <td class="top"><?php echo $username[$x]->username; ?></td>
+                    <td class="top"><?php echo $password[$x]->password; ?></td>
+                    <td class="top">
+                        <form action="edit" method="post">
+                            <input type="hidden" name="update_id" value="<?php echo $id[$x]->id; ?>">
+                            <button type="submit" name = "buttonedit"class="edit1">EDIT</button>
+                        </form>
+                    </td>
+                    <td class="top">
+                        <form action="deleteuser" method="post">
+                            <input type="hidden" name="delete_ID" value="<?php echo $id[$x]->id; ?>">
+                            <button type="submit" class="delete1">DELETE</button>
+                        </form>
+                    </td>
+                </tr>
             <?php
                 }
             } else {
