@@ -43,7 +43,7 @@
             ];
             return view('site')->with($data);
         }
-        public function createuser(Request $request){
+        public function createUser(Request $request){
 
             $this->validate($request, [
                 'username' => 'required|max:50',
@@ -56,27 +56,26 @@
             if(count($users)>0){
                 $idcount = DB::table('users')->orderBy('id', 'DESC')->first();
                 $idcount = $idcount->id;
-                $users = new User;
-                $users->id=($idcount+1);
-                $users->password = $request->input('password');
-                $users->username = $request->input('username');
-                if ($users->save()) {
-                    return redirect()->view('site');
+                $user = new User;
+                $user->id=($idcount+1);
+                $user->password = $request->input('password');
+                $user->username = $request->input('username');
+                if ($user->save()) {
+                    return redirect()->route('site');
                 } else {
                 }
             }else{
-                $users = new User;
-                $users->id = (count($users)+ 1);
-                $users->password = $request->input('password');
-                $users->username = $request->input('username');
-                if ($users->save()) {
-                    return redirect()->view('site');
+                $user = new User;
+                $user->id = (count($users)+ 1);
+                $user->password = $request->input('password');
+                $user->username = $request->input('username');
+                if ($user->save()) {
+                    return redirect()->route('site');
                 } else {
                 }
             }
            
         }
-
         public function createpage(){
             return view('create');
         }
@@ -106,7 +105,7 @@
             $id = $_POST['delete_ID'];
             $user = User::find($id);
             $user->delete();
-            return redirect()->view('site');
+            return redirect()->route('site');
         }
 
     }
