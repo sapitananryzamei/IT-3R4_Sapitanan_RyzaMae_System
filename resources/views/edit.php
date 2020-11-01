@@ -92,7 +92,7 @@
             <div class="forms">
                 <?php
                     $id;
-                    if (isset($_POST['edit'])) {
+                    if (isset($_POST['buttonedit'])) {
                         $idSearch = $_POST['update_id'];
                         for ($x = 0; $x < count($id); $x++) {
                             if ($id[$x]->id == $idSearch) {

@@ -61,7 +61,7 @@
                 $users->password = $request->input('password');
                 $users->username = $request->input('username');
                 if ($users->save()) {
-                    return redirect()->route('site');
+                    return redirect()->route('create');
                 } else {
                 }
             }else{
@@ -70,7 +70,7 @@
                 $users->password = $request->input('password');
                 $users->username = $request->input('username');
                 if ($users->save()) {
-                    return redirect()->route('site');
+                    return redirect()->route('create');
                 } else {
                 }
             }

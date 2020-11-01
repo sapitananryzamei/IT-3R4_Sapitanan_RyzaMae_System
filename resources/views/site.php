@@ -115,7 +115,7 @@
                         <td class="top">
                             <form action="edit" method="post">
                                 <input type="hidden" name="update_id" value="<?php echo $id[$x]->id; ?>">
-                                <button type="submit" class="edit1">EDIT</button>
+                                <button type="submit" name = "buttonedit"class="edit1">EDIT</button>
                             </form>
                         </td>
                         <td class="top">
