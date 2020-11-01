@@ -60,11 +60,11 @@
                 border: 1px solid black;
                 text-align: center;
             }
-            button.edit{
+            button.edit1{
                 background-color: black;
                 color: blanchedalmond;
             }
-            button.delete{
+            button.delete1{
                 background-color: black;
                 color: blanchedalmond;
             }
@@ -114,14 +114,14 @@
                         <td class="top"><?php echo $password[$x]->password; ?></td>
                         <td class="top">
                             <form action="edit" method="post">
-                                <input type="hidden" name="edit_id" value="<?php echo $id[$x]->id; ?>">
-                                <button type="submit" class="edit">EDIT</button>
+                                <input type="hidden" name="update_id" value="<?php echo $id[$x]->id; ?>">
+                                <button type="submit" class="edit1">EDIT</button>
                             </form>
                         </td>
                         <td class="top">
                             <form action="delete" method="post">
-                                <input type="hidden" name="delete_id" value="<?php echo $id[$x]->id; ?>">
-                                <button type="submit" class="delete">DELETE</button>
+                                <input type="hidden" name="delete_ID" value="<?php echo $id[$x]->id; ?>">
+                                <button type="submit" class="delete1">DELETE</button>
                             </form>
 
                         </td>

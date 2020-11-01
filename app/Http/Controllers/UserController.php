@@ -43,7 +43,7 @@
             ];
             return view('site')->with($data);
         }
-        public function CreateUser(Request $request){
+        public function createUser(Request $request){
 
             $this->validate($request, [
                 'username' => 'required|max:50',
@@ -103,7 +103,7 @@
         }
 
         public function delete(){
-            $id = $_POST['delete_id'];
+            $id = $_POST['delete_ID'];
             $user = User::find($id);
             $user->delete();
             return redirect()->route('site');

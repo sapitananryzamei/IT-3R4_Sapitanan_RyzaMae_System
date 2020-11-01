@@ -36,7 +36,7 @@
                 padding: 2px;
                 cursor: pointer;
                 margin-left: 8px;
-                margin-top: 20px;
+                margin-top: 50px;
                 font-size: 20px;
             }
             a.out{
@@ -47,7 +47,7 @@
                 float: right;
                 margin-right: 10px;
                 cursor: pointer;
-                margin-top: 20px;
+                margin-top: 50px;
                 font-size: 20px;
             }
             div.forms{
@@ -56,7 +56,7 @@
                 padding-bottom: 50px;
                 background-color: whitesmoke;
                 width: 50%;
-                height: 90%;
+                height: 100%;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 20px;
@@ -93,7 +93,7 @@
                 <?php
                     $id;
                     if (isset($_POST['edit'])) {
-                        $idSearch = $_POST['edit_id'];
+                        $idSearch = $_POST['update_id'];
                         for ($x = 0; $x < count($id); $x++) {
                             if ($id[$x]->id == $idSearch) {
                     ?>
