@@ -43,7 +43,7 @@
             ];
             return view('site')->with($data);
         }
-        public function createUser(Request $request){
+        public function createuser(Request $request){
 
             $this->validate($request, [
                 'username' => 'required|max:50',
@@ -61,7 +61,7 @@
                 $users->password = $request->input('password');
                 $users->username = $request->input('username');
                 if ($users->save()) {
-                    return redirect()->route('create');
+                    return redirect()->route('site');
                 } else {
                 }
             }else{
@@ -70,7 +70,7 @@
                 $users->password = $request->input('password');
                 $users->username = $request->input('username');
                 if ($users->save()) {
-                    return redirect()->route('create');
+                    return redirect()->route('site');
                 } else {
                 }
             }

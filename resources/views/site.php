@@ -123,7 +123,6 @@
                                 <input type="hidden" name="delete_ID" value="<?php echo $id[$x]->id; ?>">
                                 <button type="submit" class="delete1">DELETE</button>
                             </form>
-
                         </td>
                     </tr>
             <?php
