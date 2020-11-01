@@ -61,7 +61,7 @@
                 $users->password = $request->input('password');
                 $users->username = $request->input('username');
                 if ($users->save()) {
-                    return redirect()->route('site');
+                    return redirect()->view('site');
                 } else {
                 }
             }else{
@@ -70,7 +70,7 @@
                 $users->password = $request->input('password');
                 $users->username = $request->input('username');
                 if ($users->save()) {
-                    return redirect()->route('site');
+                    return redirect()->view('site');
                 } else {
                 }
             }
@@ -106,7 +106,7 @@
             $id = $_POST['delete_ID'];
             $user = User::find($id);
             $user->delete();
-            return redirect()->route('site');
+            return redirect()->view('site');
         }
 
     }
