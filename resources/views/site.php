@@ -64,7 +64,7 @@
                 background-color: black;
                 color: blanchedalmond;
             }
-            button.delete1{
+            button.del{
                 background-color: black;
                 color: blanchedalmond;
             }
@@ -119,10 +119,10 @@
                         </form>
                     </td>
                     <td class="top">
-                        <form action="deleteuser" method="post">
-                            <input type="hidden" name="delete_ID" value="<?php echo $id[$x]->id; ?>">
-                            <button type="submit" class="delete1">DELETE</button>
-                        </form>
+                    <form action="delete" method="post">
+                        <input type="hidden" name="delete_id" value="<?php echo $id[$x]->id; ?>">
+                        <button type="submit"  class="del">DELETE</button>
+                    </form>
                     </td>
                 </tr>
             <?php

@@ -30,13 +30,14 @@
                 width: 13%; 
                 
             }
-            a.back{
+            a.create1{
                 background-color: black;
-                color: blanchedalmond;
                 padding: 2px;
-                cursor: pointer;
                 text-decoration: none;
-                margin-left: 8px;
+                color: blanchedalmond;
+                float: left;
+                margin-left: 15px;
+                cursor: pointer;
                 margin-top: 20px;
                 font-size: 20px;
             }
@@ -85,12 +86,8 @@
 <body>
     <div class="header">
         <h2>CREATE USER</h2>
-    </div>
-    <div class="buttons">
-        <div class="Createuser">
-            <a href="site" class="back">Back</a> 
-            <a href="login" class="out">Logout</a>
-        </div>
+        <a href="site" class="create1">Cancel</a> 
+        <a href="login" class="out">Logout</a>
     </div>
     <div class=forms>
         <form action="createuser" method="post">
@@ -103,7 +100,7 @@
             <input type="text" name="password" class="inp" placeholder="Enter password" required>
         </div>
         <div class="datas">
-            <input type="submit" name="save" class="add1" value="Create">
+            <input type="submit" name="add" class="add1" value="Create">
         </div>
         </form>
     </div>

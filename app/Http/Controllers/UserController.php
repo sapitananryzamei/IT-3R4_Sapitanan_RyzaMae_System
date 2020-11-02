@@ -102,7 +102,7 @@
         }
 
         public function delete(){
-            $id = $_POST['delete_ID'];
+            $id = $_POST['delete_id'];
             $user = User::find($id);
             $user->delete();
             return redirect()->route('site');
