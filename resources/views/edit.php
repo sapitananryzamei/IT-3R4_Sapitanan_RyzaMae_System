@@ -16,13 +16,16 @@
             div.header{
                 background-color: black;
                 height: 100px;
-                margin-bottom: 25x;
+                margin-bottom: 25px;
+                width: 100%;
+                
             }
             h2{
                 color: aquamarine;
                 font-family: Georgia;
                 text-align: center;
                 font-size: 40px;
+                margin-top: 0;
             }
             a.create1{
                 background-color: black;
