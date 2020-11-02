@@ -24,19 +24,15 @@
                 text-align: center;
                 font-size: 40px;
             }
-            div.header img{
-                margin-top: 4px;
-                margin-left: 590px;
-                width: 13%; 
-                
-            }
             a.create1{
                 background-color: black;
-                color: blanchedalmond;
                 padding: 2px;
+                text-decoration: none;
+                color: blanchedalmond;
+                float: left;
+                margin-left: 10px;
                 cursor: pointer;
-                margin-left: 8px;
-                margin-top: 50px;
+                margin-top: 100px;
                 font-size: 20px;
             }
             a.out{
@@ -47,7 +43,7 @@
                 float: right;
                 margin-right: 10px;
                 cursor: pointer;
-                margin-top: 50px;
+                margin-top: 100px;
                 font-size: 20px;
             }
             div.forms{
@@ -59,7 +55,7 @@
                 height: 100%;
                 margin-left: auto;
                 margin-right: auto;
-                margin-top: 20px;
+                margin-top: 150px;
                 
             }
             input{

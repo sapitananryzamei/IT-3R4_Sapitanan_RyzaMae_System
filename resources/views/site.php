@@ -24,12 +24,6 @@
                 text-align: center;
                 font-size: 40px;
             }
-            div.header img{
-                margin-top: 4px;
-                margin-left: 590px;
-                width: 13%; 
-                
-            }
             input.create1{
                 background-color: black;
                 color: blanchedalmond;
