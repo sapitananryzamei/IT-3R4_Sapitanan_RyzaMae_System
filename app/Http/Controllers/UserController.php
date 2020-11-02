@@ -43,7 +43,7 @@
             ];
             return view('site')->with($data);
         }
-        public function createUser(Request $request){
+        public function createuser(Request $request){
 
             $this->validate($request, [
                 'username' => 'required|max:50',
@@ -63,7 +63,6 @@
                 if ($user->save()) {
                     return redirect()->route('site');
                 } else {
-                    return "Error"
                 }
             }else{
                 $user = new User;
@@ -73,7 +72,6 @@
                 if ($user->save()) {
                     return redirect()->route('site');
                 } else {
-                    return "Error"
                 }
             }
            

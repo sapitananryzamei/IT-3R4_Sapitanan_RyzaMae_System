@@ -122,7 +122,7 @@
                         <form action="delete" method="post">
                             <input type="hidden" name="delete_id" value="<?php echo $id[$x]->id; ?>">
                             <button type="submit"  class="del">DELETE</button>
-                    </form>
+                        </form>
                     </td>
                 </tr>
             <?php
