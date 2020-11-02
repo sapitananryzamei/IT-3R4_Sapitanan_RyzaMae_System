@@ -109,19 +109,19 @@
                 for ($x = 0; $x < count($id); $x++) {
             ?>
                 <tr>
-                    <td class="top"><?php echo $id[$x]->id; ?></td>
-                    <td class="top"><?php echo $username[$x]->username; ?></td>
-                    <td class="top"><?php echo $password[$x]->password; ?></td>
-                    <td class="top">
+                    <td><?php echo $id[$x]->id; ?></td>
+                    <td><?php echo $username[$x]->username; ?></td>
+                    <td><?php echo $password[$x]->password; ?></td>
+                    <td>
                         <form action="edit" method="post">
                             <input type="hidden" name="update_id" value="<?php echo $id[$x]->id; ?>">
                             <button type="submit" name = "buttonedit"class="edit1">EDIT</button>
                         </form>
                     </td>
-                    <td class="top">
-                    <form action="delete" method="post">
-                        <input type="hidden" name="delete_id" value="<?php echo $id[$x]->id; ?>">
-                        <button type="submit"  class="del">DELETE</button>
+                    <td>
+                        <form action="delete" method="post">
+                            <input type="hidden" name="delete_id" value="<?php echo $id[$x]->id; ?>">
+                            <button type="submit"  class="del">DELETE</button>
                     </form>
                     </td>
                 </tr>

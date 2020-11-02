@@ -100,7 +100,7 @@
             <input type="text" name="password" class="inp" placeholder="Enter password" required>
         </div>
         <div class="datas">
-            <input type="submit" name="add" class="add1" value="Create">
+            <input type="submit" name="add" value="Create">
         </div>
         </form>
     </div>

@@ -63,15 +63,17 @@
                 if ($user->save()) {
                     return redirect()->route('site');
                 } else {
+                    return "Error"
                 }
             }else{
                 $user = new User;
-                $user->id = (count($users)+ 1);
+                $user->id = (count($users)+1);
                 $user->password = $request->input('password');
                 $user->username = $request->input('username');
                 if ($user->save()) {
                     return redirect()->route('site');
                 } else {
+                    return "Error"
                 }
             }
            
