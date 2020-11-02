@@ -99,14 +99,14 @@
                     ?>
                     <form action="update" method="post">
                         <input type="hidden" name="idSearch" value="<?php echo $id[$x]->id; ?>">
-                        <div class="datas">
+                        <div>
                             <label>Username</label>
                             <input type="text" name="username" value="<?php echo $username[$x]->username; ?>" class="inp" placeholder="Enter username" required>
                         </div>
-                        <div class="datas">
+                        <div>
                             <label>Password</label>
                             <input type="text" name="password" value="<?php echo $password[$x]->password; ?>" class="inp" placeholder="Enter password" required>                            </div>
-                        <div class="datas">                 
+                        <div>                 
                             <input type="submit" name="adds" value="Update">
                         </div>
                     </form>

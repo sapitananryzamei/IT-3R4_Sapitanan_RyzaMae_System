@@ -91,15 +91,15 @@
     </div>
     <div class=forms>
         <form action="createuser" method="post">
-            <div class="datas">
+            <div>
             <label>Username</label>
             <input type="text" name="username" class="inp" placeholder="Enter username" required>
         </div>
-        <div class="datas">
+        <div>
             <label class="pword">Password</label>
             <input type="text" name="password" class="inp" placeholder="Enter password" required>
         </div>
-        <div class="datas">
+        <div>
             <input type="submit" name="add" value="Create">
         </div>
         </form>
